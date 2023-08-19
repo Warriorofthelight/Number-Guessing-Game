@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  justify-content: center;
+}
+
+.guessContainer {
+  border: 1px solid red;
+  height: 100vh;
+}
+
+.guessCenter {
+  margin: 10rem auto;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  background: rgb(18, 18, 46);
+}
+
+.title {
+  padding-bottom: 2rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  background-color: rgb(75, 75, 204);
+  border: none;
+  padding: 0.2rem;
+  border-radius: 25px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: black;
+  background-color: rgb(183, 183, 231);
+}
